@@ -1,0 +1,25 @@
+{
+  "name": "Sentry",
+  "language": "c-wasm",
+  "protocol": 2,
+  "entry": "sentry.c",
+  "strategy": "A patient turret that holds near the centre, follows muzzle flashes and banks battery for heavy shots at slow targets. It relocates when hit while hurt.",
+  "supportedModes": [
+    "2d",
+    "3d"
+  ],
+  "resourceModes": [
+    "wasm"
+  ],
+  "supportedRulesets": [
+    "classic",
+    "inertial-2d",
+    "gravity-flat",
+    "gravity-hills",
+    "zero-g"
+  ],
+  "command": [
+    "build/clunkyard-wasm-host",
+    "build/wasm-sentry-c.wasm"
+  ]
+}
