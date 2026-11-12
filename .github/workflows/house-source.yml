@@ -17,8 +17,8 @@ jobs:
       - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
       - name: Verify and refresh public source
         run: |
-          curl --fail --silent --show-error --proto '=https' --tlsv1.2 'https://raw.githubusercontent.com/clunkyard/.github/97c4bd3fefe260a6f7579badf495700a31c1679e/scripts/sync-house.cjs' -o "$RUNNER_TEMP/sync-house.cjs"
-          printf '%s  %s\n' 'f73aabaac1fd0360706462dde7be56f2ffb368b3e5e264e0c6ef80327a25a611' "$RUNNER_TEMP/sync-house.cjs" | sha256sum --check
+          curl --fail --silent --show-error --proto '=https' --tlsv1.2 'https://raw.githubusercontent.com/clunkyard/.github/8eadfdd5855c747e45c5c0a5ceea170ec25b3951/scripts/sync-house.cjs' -o "$RUNNER_TEMP/sync-house.cjs"
+          printf '%s  %s\n' '59ab6f6dd932aca19498f8bdb061ba2f6542d5c6b5b0ccb3acd9fb3c1090e404' "$RUNNER_TEMP/sync-house.cjs" | sha256sum --check
           node "$RUNNER_TEMP/sync-house.cjs" --sync b419e8e5-02de-468c-b994-7e80e416ee4d --slug sentry
       - name: Commit verified changes
         run: |
