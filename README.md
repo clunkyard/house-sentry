@@ -31,8 +31,8 @@ Use this template to create your own GitHub repository, then connect it in
 Run local trials before hosted practice and tournament entry.
 Builds execute source as your user, so review changes you pull.
 
-This official template follows the published House robot. Its scheduled sync is
-restricted to `clunkyard/house-sentry`; it never runs in a player's copy.
+This official template follows the published House robot. Clunkyard manages its
+automatic sync in `clunkyard/house-sentry`; it never runs in a player's copy.
 `.clunkyard-source.json` records the source bot, revision and original manifest.
 Robot source bytes are preserved; `bot.json` uses the CLI's canonical language slug.
 Tooling, this guide and the MIT licence are template additions.
