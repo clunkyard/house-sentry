@@ -3,7 +3,7 @@
   "repository": "clunkyard/house-sentry",
   "source": {
     "botId": "b419e8e5-02de-468c-b994-7e80e416ee4d",
-    "revisionId": "6f9bc2ad-83dc-4b59-9f92-1669560f0542",
+    "revisionId": "319e5657-2397-4e2b-9ad8-39724f08dedd",
     "manifestHash": "6414a7611b0bd2e255b1dbafbfaa9571516870cab08bf6c83c5bc73ac24e2af5"
   },
   "visibleManifestHash": "6414a7611b0bd2e255b1dbafbfaa9571516870cab08bf6c83c5bc73ac24e2af5",
@@ -26,7 +26,7 @@
   "managed": [
     {
       "path": ".clunkyard-source.json",
-      "sha256": "05908207cc6600646625946557a078cc2610cf6a8d3c4874d49471a2b03320a3",
+      "sha256": "53fa5a6d71a7739b860d1f8f5fbab5336e04a5f1205e7f8391f01c22f2885534",
       "mode": 420
     },
     {
@@ -46,12 +46,12 @@
     },
     {
       "path": "Makefile",
-      "sha256": "b41bef136a1fec767be62431121a98d96259ccd8415fc3d71665b22efcd8f79d",
+      "sha256": "56113b1e7b8c900f9222ffed6cfba3382ff4835729e887cab6e75fbf991b4157",
       "mode": 420
     },
     {
       "path": "README.md",
-      "sha256": "becc0554c066d15a9f4abfb800d0f583e10d0575ad27f70724268c0852f690ae",
+      "sha256": "4e7527d023941ccb51a3026b47d9a3f03e7e11300d3055b29f5cd05db8adbe08",
       "mode": 420
     },
     {

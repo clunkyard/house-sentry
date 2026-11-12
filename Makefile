@@ -1,4 +1,4 @@
-CLUNKYARD ?= npx --yes @clunkyard/cli@2
+CLUNKYARD ?= npx --yes @clunkyard/cli
 
 .PHONY: all setup doctor match replay clean
 all:

@@ -10,10 +10,10 @@ The shared CLI downloads only the engine and this language's SDK.
 ```sh
 git clone https://github.com/clunkyard/house-sentry.git
 cd house-sentry
-npx --yes @clunkyard/cli@2 doctor
-npx --yes @clunkyard/cli@2 build
-npx --yes @clunkyard/cli@2 match 42 2d classic
-npx --yes @clunkyard/cli@2 replay
+npx @clunkyard/cli doctor
+npx @clunkyard/cli build
+npx @clunkyard/cli match 42 2d classic
+npx @clunkyard/cli replay
 ```
 
 With Make, use `make doctor`, `make`, `make match` and `make replay`.
@@ -31,7 +31,7 @@ Use this template to create your own GitHub repository, then connect it in
 Run local trials before hosted practice and tournament entry.
 Builds execute source as your user, so review changes you pull.
 
-This official template follows the published House robot. Its hourly sync is
+This official template follows the published House robot. Its scheduled sync is
 restricted to `clunkyard/house-sentry`; it never runs in a player's copy.
 `.clunkyard-source.json` records the source bot, revision and original manifest.
 Robot source bytes are preserved; `bot.json` uses the CLI's canonical language slug.
